@@ -1,6 +1,6 @@
 from django.contrib.gis.db.backends.postgis.schema import PostGISSchemaEditor
 
-from timescale.db.models.fields import TimescaleDateTimeField
+from timescale.models.fields import TimescaleDateTimeField
 
 
 class TimescaleSchemaEditor(PostGISSchemaEditor):
